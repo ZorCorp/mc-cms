@@ -1,0 +1,9 @@
+{
+  "name": "mc-cms",
+  "description": "Query Master Concept's Cloud MS reseller-management data — Google Cloud / Workspace billing accounts (status, master reseller, per customer), customers (org + domain), virtual customers and custom tiered SKU repricing, billing-account approvals, internal teams, and the CMS audit log — from its read-only BigQuery mirror behind a private Cloud Run endpoint. Read-only, skill-only: the agent signs a short-lived Google ID token with gcloud and curls the endpoint, so there is no MCP server, proxy or binary to install. Needs gcloud, logged in with an account that has Cloud Run run.invoker.",
+  "version": "0.1.0",
+  "author": {
+    "name": "laucw1213",
+    "url": "https://github.com/laucw1213"
+  }
+}
